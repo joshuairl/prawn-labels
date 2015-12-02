@@ -104,13 +104,13 @@ module Prawn
         @document.rotate(270, :origin => b.top_left) do
           @document.translate(0, b.width) do
             @document.bounding_box b.top_left, :width => b.height, :height => b.width do
-              yield @document, record
+              yield @document, record, bounds
             end
           end
         end
       else
         @document.bounding_box b.top_left, :width => b.width, :height => b.height do
-          yield @document, record
+          yield @document, record, bounds
         end
       end
 
