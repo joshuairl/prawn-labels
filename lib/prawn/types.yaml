@@ -2,7 +2,22 @@
 # prawns' basic unit is PostScript-Point
 # 72 points per inch
 #
-
+# Avery Business Cards, 63.5 x 38.1 mm, 21 per sheet
+# Compatible Products: 15871, 18871, 27871, 27881, 27882, 27883, 28371,
+# 28873, 28876, 28877, 28878, 38871, 38873, 38876, 5371, 5376, 5377, 55871,
+# 55876, 5870, 5871, 5874, 5876, 5877, 5878, 5882, 5911, 8271, 8371, 8372,
+# 8376, 8377, 8471, 8476, 8571, 8865, 8870, 8871, 8872, 8873, 8874, 8875, 8876,
+# 8877, 8878, 8879
+AveryBusinessCards:
+    paper_size: LETTER
+    top_margin: 36
+    bottom_margin: 30.24
+    left_margin: 60.48
+    right_margin: 22.32
+    columns: 2
+    rows: 5
+    column_gutter: 0
+    row_gutter: 0
 # Avery 7160 family: Mailing labels, 63.5 x 38.1 mm, 21 per sheet
 Avery7160:
     paper_size: A4
@@ -35,7 +50,7 @@ Avery5163:
     columns: 2
     rows: 5
     column_gutter: 18
-    row_gutter: 0    
+    row_gutter: 0
 # Standard #10 envelope
 Envelope10:
     paper_size: [297, 595.28]
