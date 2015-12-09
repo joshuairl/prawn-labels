@@ -2,6 +2,19 @@
 # prawns' basic unit is PostScript-Point
 # 72 points per inch
 #
+
+#Avery Pin Style Name Badges 2" x 3", 10 per sheet
+# Compatible Products: 74558, 74552
+AveryPinStyleNameBadges:
+    paper_size: LETTER
+    top_margin: 42.72
+    bottom_margin: 40.56
+    left_margin: 90.479
+    right_margin: 89.52
+    columns: 2
+    rows: 5
+    column_gutter: 0
+    row_gutter: 0
 # Avery Business Cards, 88.9 x 50.8 mm, 10 per sheet
 # Compatible Products: 15871, 18871, 27871, 27881, 27882, 27883, 28371,
 # 28873, 28876, 28877, 28878, 38871, 38873, 38876, 5371, 5376, 5377, 55871,
